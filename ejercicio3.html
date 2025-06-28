@@ -1,12 +1,3 @@
-<?php
-
-    if($_POST){
-
-        $nombre = $_POST['txtNombre'];
-    }
-    echo "Hola".$nombre;
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,9 +7,9 @@
 </head>
 <body>
     
-    <form action="ejercicio2.php" method="post">
+    <form action="ejercicio3.php" method="get">
         <label for="txtNombre">Nombre</label>
-        <input type="text" name="txtNombre" id="">
+        <input type="text" name="nombre" id="">
         <input type="submit" value="Enviar">
     </form>
 </body>
