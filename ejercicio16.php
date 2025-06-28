@@ -1,8 +1,8 @@
 <?php
 
-    function imprimirMinombre($nombre, $apellido){
-        echo "hola ".$nombre." ". $apellido;
-    }
+        $random_nmber= rand(5,50);
 
-    imprimirMinombre("Arturo","rios")
-?>
+            echo $random_nmber;
+       $nombre= strtoupper("arturo");
+        echo $nombre;
+    ?>
