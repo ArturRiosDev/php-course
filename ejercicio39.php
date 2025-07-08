@@ -9,7 +9,7 @@
 
 <!-- La diferencia entre include y require, es que con require no imprime el resto del codigo , y con el include si lo hace  -->
     <?php
-        require 'ejercicio39_.php' ;
+        require 'ejercicio39_1.php' ;
     ?>
     <br/>
     <?php echo "Hola estoy en la pagina principal";?>
